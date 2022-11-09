@@ -26,7 +26,7 @@ public class Kek : MonoBehaviour
 
     private void CreateMen(GameObject obj)
     {
-        Instantiate(obj, obj.transform.position, Quaternion.identity);
+        Instantiate(obj, obj.transform.position, obj.transform.rotation);
     }
     
 }
